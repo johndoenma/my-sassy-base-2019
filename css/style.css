@@ -32,6 +32,9 @@ h3 {
   font-size: 1.5em;
   line-height: 1.2; }
 
+p {
+  max-width: 35em; }
+
 /* TYPE SPECIMEN */
 .mainhead {
   font-size: 6em;
