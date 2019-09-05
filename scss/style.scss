@@ -1,9 +1,11 @@
 // VARIABLES
-$mybodybackground: pink; 
+$body-fontfamily: 'acumin-pro', Helvetica, arial, sans-serif;
+$heading-fontfamily: 'kepler-std', georgia, serif;
+
+$color-accent: red;
+$color-midgrey: rgba(0,0,0,.5);
 
 // IMPORT PARTIALS
 @import 'partials/toc';
+@import 'partials/typography';
   
-body {
-    background-color: $mybodybackground;
-}   
