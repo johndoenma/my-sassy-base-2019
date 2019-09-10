@@ -6,13 +6,15 @@ CSS TABLE OF CONTENTS
     # BODY
     # TYPOGRAPHY
     # LINKS
+    # BUTTONS
 
 --------------------------- */
 /* BODY */
 body {
   font-family: "acumin-pro", Helvetica, arial, sans-serif;
   font-size: 100%;
-  line-height: 1.4; }
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.85); }
 
 /* HEADINGs */
 h1, h2, h3 {
@@ -35,13 +37,42 @@ h3 {
 p {
   max-width: 35em; }
 
+/* LINKS */
+a {
+  color: #069; }
+
+a:hover {
+  color: #035; }
+
+/* HORIZONTAL RULE */
+hr {
+  border: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.15);
+  margin: 3em 0; }
+
 /* TYPE SPECIMEN */
 .mainhead {
   font-size: 6em;
-  color: red;
+  color: #ff9900;
   margin-bottom: 0; }
 
 .subhead {
   font-family: "acumin-pro", Helvetica, arial, sans-serif;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 1em; }
+
+/* BUTTONS */
+button,
+.button {
+  font-size: inherit;
+  background-color: #069;
+  color: #fff;
+  padding: 1em 2em;
+  display: inline-block;
+  margin: .5em;
+  border-radius: 2em; }
+  button:hover,
+  .button:hover {
+    background-color: #035;
+    color: #fff; }

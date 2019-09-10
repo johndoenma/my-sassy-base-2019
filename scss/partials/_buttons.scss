@@ -1,0 +1,18 @@
+/* BUTTONS */
+
+button,
+.button {
+    font-size: inherit;
+    background-color: $color-links;
+    color: #fff; 
+    padding: 1em 2em;
+    display: inline-block;
+    margin: .5em;
+    border-radius: 2em;
+
+    &:hover {
+        background-color: $color-links-dark;
+        color: #fff; 
+    }
+
+}

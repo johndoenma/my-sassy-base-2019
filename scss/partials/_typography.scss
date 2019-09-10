@@ -5,6 +5,7 @@ body {
     font-family: $body-fontfamily;
     font-size: 100%;
     line-height: 1.4;
+    color: $color-text-body;
 }
 
 /* HEADINGs */
@@ -31,6 +32,21 @@ h3 {
 p {
     max-width: 35em; 
 }
+
+
+/* LINKS */
+a { color: $color-links;}
+a:hover { color: $color-links-dark;}
+
+
+/* HORIZONTAL RULE */
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(0,0,0,.15);
+    margin: 3em 0;
+  }
+
 
 /* TYPE SPECIMEN */
 
