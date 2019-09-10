@@ -66,14 +66,27 @@ hr {
 button,
 .button {
   font-size: inherit;
+  font-family: "acumin-pro", Helvetica, arial, sans-serif;
   line-height: 1;
   background-color: #069;
   color: #fff;
   padding: 1em 2em;
   display: inline-block;
   margin: .5em;
-  border-radius: 2em; }
+  border-radius: 2em;
+  border: 1px solid #069;
+  cursor: pointer; }
   button:hover,
   .button:hover {
     background-color: #035;
-    color: #fff; }
+    color: #fff;
+    border-color: #035; }
+  button.alt,
+  .button.alt {
+    color: #035;
+    background-color: #fff; }
+    button.alt:hover,
+    .button.alt:hover {
+      background-color: #035;
+      color: #fff;
+      border-color: #035; }
