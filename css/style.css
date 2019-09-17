@@ -90,3 +90,34 @@ button,
       background-color: #035;
       color: #fff;
       border-color: #035; }
+
+/* Responsive Images */
+img {
+  max-width: 100%;
+  height: auto; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-size: 87.5%;
+  margin: 0; }
+
+.container {
+  padding: 0 4%;
+  margin: 0 auto; }
+
+@media (min-width: 768px) {
+  body {
+    font-size: 100%; } }
+
+@media (min-width: 1050px) {
+  .container {
+    max-width: 1050px; } }
+
+@media (min-width: 1050px) {
+  body {
+    font-size: 112.5%; }
+  .container {
+    max-width: 1050px; } }
