@@ -145,13 +145,13 @@ body {
       flex-grow: 1;
       margin: 1%; }
       .row .column.one-half {
-        width: 50%; }
+        width: 48%; }
       .row .column.one-third {
-        width: 33.3333%; }
+        width: 31.3333%; }
       .row .column.two-thirds {
-        width: 66.6666%; }
+        width: 64.6666%; }
       .row .column.one-fourth {
-        width: 25%; } }
+        width: 23%; } }
 
 .row.demo .column {
   background: rgba(0, 0, 0, 0.5);
