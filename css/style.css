@@ -54,7 +54,7 @@ hr {
 /* TYPE SPECIMEN */
 .mainhead {
   font-size: 6em;
-  color: #ff9900;
+  color: #ac6802;
   margin-bottom: 0; }
 
 .subhead {
@@ -157,3 +157,56 @@ body {
   background: rgba(0, 0, 0, 0.5);
   padding: 1em;
   text-align: center; }
+
+/* site header and footer */
+.site-header, .site-footer {
+  background-color: #ac6802;
+  padding: 1em;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .site-header h1, .site-footer h1 {
+    font-family: "acumin-pro", Helvetica, arial, sans-serif;
+    font-size: 1.5em;
+    margin: .5em 0 0 0;
+    /* to adjust baseline with nav text */ }
+  .site-header a, .site-footer a {
+    color: #fff;
+    text-decoration: none; }
+
+/* site footer */
+.site-footer {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 6em; }
+
+/* site navigation */
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.site-nav a {
+  display: block;
+  padding: 1em; }
+
+/* Hero Sections */
+.hero {
+  background-color: rgba(172, 104, 2, 0.2);
+  padding: 6em 1em;
+  text-align: center; }
+  .hero p {
+    margin-left: auto;
+    margin-right: auto; }
