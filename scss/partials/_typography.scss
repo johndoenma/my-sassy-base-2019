@@ -44,8 +44,26 @@ hr {
     border: 0;
     height: 1px;
     background: rgba(0,0,0,.15);
-    margin: 3em 0;
+    margin: 4em 0;
   }
+
+/* HELPER */
+.sectionhead {
+    font-family: $body-fontfamily;
+    font-size: 1em;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin-bottom: 3em;
+}
+
+.meta {
+    display: block;
+    font-size: .7em;
+    color: $color-midgrey;
+    margin: 0 0 2em 0;
+}
 
 
 /* TYPE SPECIMEN */

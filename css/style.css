@@ -49,12 +49,28 @@ hr {
   border: 0;
   height: 1px;
   background: rgba(0, 0, 0, 0.15);
-  margin: 3em 0; }
+  margin: 4em 0; }
+
+/* HELPER */
+.sectionhead {
+  font-family: "acumin-pro", Helvetica, arial, sans-serif;
+  font-size: 1em;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  margin-bottom: 3em; }
+
+.meta {
+  display: block;
+  font-size: .7em;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 0 2em 0; }
 
 /* TYPE SPECIMEN */
 .mainhead {
   font-size: 6em;
-  color: #ac6802;
+  color: #ac2700;
   margin-bottom: 0; }
 
 .subhead {
@@ -160,7 +176,7 @@ body {
 
 /* site header and footer */
 .site-header, .site-footer {
-  background-color: #ac6802;
+  background-color: #ac2700;
   padding: 1em;
   color: #fff;
   display: -webkit-box;
@@ -202,9 +218,12 @@ body {
   display: block;
   padding: 1em; }
 
+section {
+  padding: 6em 0; }
+
 /* Hero Sections */
 .hero {
-  background-color: rgba(172, 104, 2, 0.2);
+  background-color: rgba(172, 39, 0, 0.2);
   padding: 6em 1em;
   text-align: center; }
   .hero p {
